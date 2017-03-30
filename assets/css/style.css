@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+body{
+    background: url('../images/bg.jpg') no-repeat;
+    background-size: cover;
+}
+
+#mash{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: url('../images/mash.png') repeat;
+    z-index: 0;
+}
+
+#panel{
+    position: relative;
+    display: inline-block;
+    height: 181px;
+    width: 671px;
+    background: url('../images/panelk.png');
+    overflow: hidden;
+    z-index: 1;
+}
+
+#text-fields{
+    margin: 56px 0 0 56px;
+    width: 560px;
+    height: 60px;
+    overflow: hidden;
+}
+
+#panel ul{
+    padding: 0;
+    list-style: none;
+}
+
+#panel ul >li{
+    text-align: center;
+    font-size: 25px;
+    margin: 17px 0 17px 0;
+}
+
+.btn{
+    position: relative;
+    display: inline-block;
+    width: 183px;
+    height: 181px;
+    background: url('../images/button.png');
+    z-index: 1;
+}
